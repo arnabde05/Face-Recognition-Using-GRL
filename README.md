@@ -55,7 +55,7 @@ We welcome contributions from the community. If you have improvements, bug fixes
 
 This project is licensed under the [MIT License](LICENSE).
 
-
+Here is the complete workflow of the project. 
 
 ![Proposed model (poster) _changed](https://github.com/arnabde05/Face-Recognition-Using-GRL/assets/87455060/96c85bde-70fc-44eb-bf38-d7a8c75ba26c)
 
