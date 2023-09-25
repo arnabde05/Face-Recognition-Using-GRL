@@ -59,3 +59,6 @@ Here is the complete workflow of the project.
 
 ![Proposed model (poster) _changed](https://github.com/arnabde05/Face-Recognition-Using-GRL/assets/87455060/96c85bde-70fc-44eb-bf38-d7a8c75ba26c)
 
+
+I just gave a short overview of all techniques I used. Actually this is the first approach I tried. so, for more informations and everything please contact with me. 
+
