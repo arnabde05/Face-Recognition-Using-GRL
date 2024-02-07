@@ -26,6 +26,16 @@ In the field of face recognition, Graph Representation Learning has shown promis
 
 Node2Vec is a graph embedding technique that learns continuous representations for nodes in a graph. In the context of face recognition, Node2Vec can be used to capture meaningful features from face graphs.
 
+The node2vec framework learns low-dimensional representations for nodes in a graph by optimizing a neighborhood preserving objective. The objective is flexible, and the algorithm accomodates for various definitions of network neighborhoods by simulating biased random walks. Specifically, it provides a way of balancing the exploration-exploitation tradeoff that in turn leads to representations obeying a spectrum of equivalences from homophily to structural equivalence.
+
+![image](https://github.com/arnabde05/Face-Recognition-Using-GRL/assets/87455060/bcd27060-c174-415a-8213-46474eae4568)
+
+After transitioning to node v from t, the return hyperparameter, p and the inout hyperparameter, q control the probability of a walk staying inward revisiting nodes (t), staying close to the preceeding nodes (x1), or moving outward farther away (x2, x3).
+
+![image](https://github.com/arnabde05/Face-Recognition-Using-GRL/assets/87455060/49c878ac-718d-4c66-bb35-7d850df81835)
+
+
+
 ### DeepWalk
 
 DeepWalk is another graph embedding method that leverages random walks to generate embeddings for nodes. DeepWalk can be applied to face graphs to create feature representations for face recognition tasks.
